@@ -5,7 +5,7 @@ This web application shows Covid-19 cases for whole world
 **Homepage**
 ![Screenshot (1927)](https://user-images.githubusercontent.com/59314528/105714103-f3a32380-5f41-11eb-9fc7-9e083c918f38.png)
 
-**Python package to get information regarding the novel corona virus provided by Johns Hopkins university and worldometers.info. 
+**This web application has used python package to get information regarding the novel corona virus provided by Johns Hopkins university and worldometers.info. 
 This provided package is covid.**
 - covid package gives the covid-19 cases for whole world and all the data is being updated regularly. 
 - For using covid library, your system must have 3.6 or later versions of python.
