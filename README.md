@@ -1,4 +1,4 @@
-# CovidTracker
+# Covid Record Tracker
 
 This web application shows Covid-19 cases for whole world
 
@@ -23,4 +23,5 @@ This provided package is covid.**
 ![Screenshot (1930)](https://user-images.githubusercontent.com/59314528/105714158-0584c680-5f42-11eb-8df9-cd87d5163d85.png)
 - India covid-19 record.
 ![Screenshot (1937)](https://user-images.githubusercontent.com/59314528/105714205-11708880-5f42-11eb-9345-ca3d94a0da2e.png)
+- Covid-19 symptoms and preventions
 ![Screenshot (1935)](https://user-images.githubusercontent.com/59314528/105714240-1b928700-5f42-11eb-9493-59d1b5eb14ad.png)
