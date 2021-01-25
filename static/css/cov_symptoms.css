@@ -1,0 +1,47 @@
+body{
+  background-image: url('../images/cov.jpg');
+  background-repeat: no-repeat;
+}
+
+header{
+  margin: 20px;
+}
+
+header a[href]{
+  text-decoration: none;
+  font-kerning: none;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+}
+
+header a[href]:hover{
+  color: white;
+  background-color: black;
+}
+
+main{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+main li{
+  list-style-type: circle;
+  font-family:fantasy;
+  font-kerning: none;
+  font-size: 20px;
+}
+
+h2{
+  margin-left: 5px;
+}
+
+main img{
+  width: 30%;
+}

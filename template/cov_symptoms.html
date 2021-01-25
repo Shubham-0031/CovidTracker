@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Symptoms and Precautions</title>
+    <link rel="stylesheet" href="{% static 'css/cov_symptoms.css' %}">
+  </head>
+  <body>
+    <header>
+      <a href="cov-symptoms">&nbsp;Symptoms&nbsp;</a>
+      <a href="cov-preventions">Preventions</a>
+    </header>
+    <br>
+    <main>
+      {% if symptoms %}
+      <div class="symptoms">
+        <h2>Covid-19 Common Symptoms</h2>
+        <ul>
+        {% for symptom in symptoms %}
+          <li>{{symptom}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if preventions %}
+      <div class="precautions">
+        <h2>Preventions from Covid-19</h2>
+        <ul>
+        {% for prevention in preventions %}
+          <li>{{prevention}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <img src="{% static 'images/covid.gif' %}" alt="Wash Your Hands Regularly">
+      <!--<video src="{% static 'images/covid.mp4' %}" autoplay></video>-->
+    </main>
+  </body>
+</html>

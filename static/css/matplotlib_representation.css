@@ -1,0 +1,35 @@
+body{
+  background-image: url('../images/update.jpg');
+  background-repeat: no-repeat;
+}
+
+nav{
+  padding: 5px;
+}
+
+nav a[href]{
+  background-color: rgb(123,3,234);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+nav a[href]:hover{
+  background-color: rgb(13,13,234);
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.comparative_data img{
+  border: 5px solid black;
+  border-radius: 25px;
+  margin: 100px;
+  padding: 0px;
+  border-collapse: separate;
+}

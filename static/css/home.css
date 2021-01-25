@@ -1,0 +1,23 @@
+body{
+  background-image: url('../images/home.jpg');
+}
+
+header{
+  padding: 15px;
+}
+
+#covid_update_btn{
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  font-family: fantasy;
+}
+
+#covid_update_btn:hover{
+  color: white;
+  background-color: maroon;
+  border-color: maroon;
+}

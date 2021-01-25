@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/covid_updates.css' %}">
+    <script type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <a href="view-graphical">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CovTrack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <h3>
+          Corona Virus Tracker,<br>Real Data From Real API<br><hr>
+          {% now "DATETIME_FORMAT" %}<hr>
+        </h3>
+        <ul>
+          <li>
+            <a href="view-graphical">World Statistics</a>
+          </li>
+          <li>
+            <a href="show-india-record">India Covid Analysis</a>
+          </li>
+          <a id="csap" href="cov-symptoms">Covid Symptoms and Precautions</a>
+        </ul>
+      </div>
+      <div class="right">
+      <table>
+        <tr>
+          <th>Country</th><th>Confirmed Cases</th><th>Active Cases</th><th>Recovered Cases</th>
+          <th>Death</th>
+        </tr>
+        {% for data in  whole_data %}
+        <tr>
+          <td>{{data.country}}</td><td>{{data.confirmed}}</td><td>{{data.active}}</td><td>{{data.recovered}}</td>
+          <td>{{data.deaths}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      </div>
+    </main>
+  </body>
+</html>
